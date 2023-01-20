@@ -3,7 +3,17 @@ import "./login.css";
 
 function Login(){
     return(
+        
         <div class="center">
+            <nav class="nav">
+                <div class="chatbot">
+                    <p>Chatbot</p>
+                </div>
+                <ul>
+                    <li><a href="../home">Home</a></li>
+                    <li><a href="../login">Login</a></li>
+                </ul>
+            </nav>
             <img class="bg" src={require("../assets/whiteBG.png")} alt="background" />
             <form class="grey">
                 <p>Login</p>

@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    /* background-image: linear-gradient( rgb(5,101,230), rgb(182, 204, 233)); */
+    /* rgb(5,101,230) */
+
+}
+.homebg{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+nav .chatbot p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: #cfd5e2;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+nav ul{
+    float: right;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: #cfd5e2;
+    text-decoration: none;
+}
+nav li a:hover{
+    color:#33a3d3;
+    transition: all 0.4s ease 0s;
+}
+
