@@ -5,21 +5,20 @@
 }
 nav{
     width: 100%;
-    height: 75px;
+    height: max-content;
     line-height: 75px;
     padding: 0px 100px;
-    position: fixed;
     /* background-image: linear-gradient( rgb(5,101,230), rgb(182, 204, 233)); */
     /* rgb(5,101,230) */
 
 }
 .homebg{
-    position: fixed;
+    position: absolute;
     top: 0%;
     left: 0%;
     height: 100%;
     width: 100%;
-    background-size: cover;
+    z-index: -1;
 }
 
 nav .chatbot p{
